@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 Elite AI Agents
+# Elite AI Agents
 
 **Professional System Prompts That Actually Work**
 
