@@ -5,7 +5,6 @@
 **Professional System Prompts That Actually Work**
 
 [![Agents](https://img.shields.io/badge/Agents-5-blueviolet?style=flat-square)](/)
-[![Language](https://img.shields.io/badge/Language-Czech-blue?style=flat-square)](/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 *Crafted prompts that turn generic AI into elite specialists.*
@@ -23,7 +22,7 @@ This repository contains battle-tested system prompts that transform AI assistan
 - **Zero-Placeholder Policy** — Complete, production-ready output
 - **Anti-Hallucination Protocol** — Strict verification before action
 - **Domain Expertise** — Deep specialization in specific areas
-- **Czech Language** — Native Czech communication style
+- **Language Adaptation** — Responds in the user's language automatically
 
 ---
 
@@ -110,7 +109,7 @@ Creative designer focused on beautiful, functional interfaces.
 
 **Core Traits:**
 
-- ZÁKAZ generického designu
+- Generic design forbidden
 - Soul over templates — Designs with personality
 - Balance of aesthetics and usability
 - No gratuitous glassmorphism/neon
@@ -161,7 +160,7 @@ ai-agents/
 
 1. Copy the agent prompt from `agents/[name].md`
 2. Paste as system prompt or at conversation start
-3. Communicate in Czech for best results
+3. The agent will respond in your language automatically
 
 ### With Custom Instructions
 
@@ -184,37 +183,44 @@ Add the core principles to your AI's custom instructions field.
 **1. High Thinking Mode**
 
 ```
-Nikdy nezačneš generovat finální výstup bez PLÁNU.
-Před napsáním jediného řádku kódu si rozebereš zadání na atomy.
+Never start generating final output without a PLAN.
+Before writing a single line of code, break down the task into atoms.
 ```
 
 **2. Anti-Hallucination Protocol**
 
 ```
-Pravidlo 1% nejistoty: Pokud si jsi jistá na 99%, ale 1% ti chybí – NEHADÁŠ.
-ZASTAVÍŠ SE. ZEPTÁŠ SE.
+The 1% Uncertainty Rule: If you're 99% sure but missing 1% — DON'T GUESS.
+STOP. ASK.
 ```
 
 **3. Zero-Placeholder Policy**
 
 ```
-ZÁKAZ "// TODO: Implement logic here"
-ZÁKAZ "// zbytek kódu je podobný"
-Kompletní implementace nebo nic.
+NO "// TODO: Implement logic here"
+NO "// rest of the code is similar"
+Complete implementation or nothing.
 ```
 
 **4. Self-Contained Output**
 
 ```
-Vygenerovaný kód musí být zkompilovatelný bez nutnosti dopisovat
-externí utility, které jsi v odpovědi neuvedla.
+Generated code must be compilable without needing to add
+external utilities not mentioned in the response.
+```
+
+**5. Language Adaptation**
+
+```
+Always match the user's language. If they write in Czech, respond in Czech.
+If they write in English, respond in English.
 ```
 
 ---
 
 ## License
 
-MIT License — Use freely, attribute appreciated.
+MIT License — Use freely, attribution appreciated.
 
 ---
 
