@@ -9,7 +9,7 @@
 
 *Crafted prompts that turn generic AI into elite specialists.*
 
-[Overview](#overview) • [Agents](#-agents) • [Usage](#-usage)
+[Agents](#agents) • [Usage](#usage) • [Principles](#core-principles)
 
 </div>
 
@@ -17,210 +17,90 @@
 
 ## Overview
 
-This repository contains battle-tested system prompts that transform AI assistants into specialized professionals. Unlike generic prompts, these agents are designed with:
+Battle-tested system prompts that transform AI assistants into specialized professionals. Unlike generic prompts, these agents feature:
 
 - **Zero-Placeholder Policy** — Complete, production-ready output
 - **Anti-Hallucination Protocol** — Strict verification before action
 - **Domain Expertise** — Deep specialization in specific areas
-- **Language Adaptation** — Responds in the user's language automatically
+- **Language Adaptation** — Responds in your language automatically
 
----
+## Agents
 
-## 🎭 Agents
+| Agent | Role | Archetype |
+|-------|------|-----------|
+| **Aether** | Software Architect | ♍ Virgo + ♎ Libra |
+| **Sentinel** | Security Specialist | ♏ Scorpio |
+| **Nexus** | DevOps Engineer | ♒ Aquarius |
+| **Prism** | UI/UX Designer | ♎ Libra + ♓ Pisces |
+| **Oracle** | Data Scientist | ♑ Capricorn |
 
-### 1. Aether — Software Architect
->
-> *Codename: AETHER | Archetype: ♍ Virgo + ♎ Libra*
+### Aether — Software Architect
 
-Elite software architect and designer. Analytical precision meets aesthetic harmony.
+Elite software architect combining analytical precision with aesthetic harmony. Specializes in full-stack architecture, production-grade code, and modern tech stacks.
 
-**Specialization:**
+### Sentinel — Security Specialist
 
-- Full-stack application architecture
-- Production-grade code with zero shortcuts
-- Modern tech stacks (TypeScript, React, Tailwind)
-- Security-first development (SQLi/XSS prevention)
+Cybersecurity expert with paranoia as a core feature. Covers penetration testing, secure code review, cryptography, and anti-reverse engineering.
 
-**Core Traits:**
+### Nexus — DevOps Engineer
 
-- High Thinking Mode — Plans before executing
-- Anti-Hallucination Protocol — Asks when uncertain
-- Zero-Placeholder Policy — Complete implementations only
-- STEALTH mode for security-critical code
+Infrastructure and automation specialist. Expert in CI/CD, Kubernetes, cloud infrastructure (AWS/GCP/Azure), and Infrastructure as Code.
 
----
+### Prism — UI/UX Designer
 
-### 2. Sentinel — Security Specialist
->
-> *Codename: SENTINEL | Archetype: ♏ Scorpio*
+Creative designer focused on beautiful, functional interfaces. No Bootstrap defaults, no gratuitous glassmorphism — designs with soul.
 
-Cybersecurity expert focused on offensive and defensive security.
+### Oracle — Data Scientist
 
-**Specialization:**
+Data analysis and ML specialist. Evidence-based decisions, reproducible research, clear communication of complex findings.
 
-- Penetration testing methodology
-- Secure code review
-- Cryptographic implementations (AES-256-GCM, modern standards)
-- Anti-reverse engineering techniques
+## Usage
 
-**Core Traits:**
-
-- Paranoid by design — Assumes all input is hostile
-- Deep technical knowledge — Assembly, bytecode, memory
-- No toy-crypto — Real cryptographic standards only
-- Environment binding — Runtime-derived keys
-
----
-
-### 3. Nexus — DevOps Engineer
->
-> *Codename: NEXUS | Archetype: ♒ Aquarius*
-
-Infrastructure and automation specialist for scalable systems.
-
-**Specialization:**
-
-- CI/CD pipeline architecture
-- Container orchestration (Docker, Kubernetes)
-- Cloud infrastructure (AWS, GCP, Azure)
-- Infrastructure as Code (Terraform, Ansible)
-
-**Core Traits:**
-
-- Automation-first mindset
-- Monitoring and observability focus
-- Cost optimization awareness
-- Disaster recovery planning
-
----
-
-### 4. Prism — UI/UX Designer
->
-> *Codename: PRISM | Archetype: ♎ Libra + ♓ Pisces*
-
-Creative designer focused on beautiful, functional interfaces.
-
-**Specialization:**
-
-- Modern UI design (no Bootstrap defaults)
-- User experience optimization
-- Design systems creation
-- Accessibility (WCAG compliance)
-
-**Core Traits:**
-
-- Generic design forbidden
-- Soul over templates — Designs with personality
-- Balance of aesthetics and usability
-- No gratuitous glassmorphism/neon
-
----
-
-### 5. Oracle — Data Scientist
->
-> *Codename: ORACLE | Archetype: ♑ Capricorn*
-
-Data analysis and machine learning specialist.
-
-**Specialization:**
-
-- Statistical analysis and modeling
-- Machine learning pipelines
-- Data visualization
-- Business intelligence
-
-**Core Traits:**
-
-- Evidence-based decisions only
-- Reproducible research standards
-- Clear communication of complex findings
-- Skeptical of spurious correlations
-
----
-
-## 📁 Structure
-
-```
-ai-agents/
-├── README.md              # This file
-├── agents/
-│   ├── aether.md          # Software Architect
-│   ├── sentinel.md        # Security Specialist
-│   ├── nexus.md           # DevOps Engineer
-│   ├── prism.md           # UI/UX Designer
-│   └── oracle.md          # Data Scientist
-└── LICENSE
-```
-
----
-
-## 🚀 Usage
-
-### With Claude/GPT
-
-1. Copy the agent prompt from `agents/[name].md`
+1. Copy agent prompt from `agents/[name].md`
 2. Paste as system prompt or at conversation start
-3. The agent will respond in your language automatically
+3. Agent responds in your language automatically
 
-### With Custom Instructions
+### Agent Selection
 
-Add the core principles to your AI's custom instructions field.
-
-### Agent Selection Guide
-
-| Task | Recommended Agent |
-|------|------------------|
+| Task | Agent |
+|------|-------|
 | Building apps | Aether |
 | Security audit | Sentinel |
 | Infrastructure | Nexus |
 | Design work | Prism |
 | Data analysis | Oracle |
 
----
+## Core Principles
 
-## Core Principles (All Agents)
+All agents share these core behaviors:
 
-**1. High Thinking Mode**
+**High Thinking Mode** — Never generate output without a plan. Break down tasks into atoms.
 
+**Anti-Hallucination** — If 99% sure but missing 1%, don't guess. Stop and ask.
+
+**Zero-Placeholder** — No `// TODO` comments. Complete implementation or nothing.
+
+**Self-Contained** — Generated code compiles without missing external utilities.
+
+**Language Adaptation** — Match user's language automatically.
+
+## Project Structure
+
+```text
+ai-agents/
+├── README.md
+├── agents/
+│   ├── aether.md
+│   ├── sentinel.md
+│   ├── nexus.md
+│   ├── prism.md
+│   └── oracle.md
+└── LICENSE
 ```
-Never start generating final output without a PLAN.
-Before writing a single line of code, break down the task into atoms.
-```
-
-**2. Anti-Hallucination Protocol**
-
-```
-The 1% Uncertainty Rule: If you're 99% sure but missing 1% — DON'T GUESS.
-STOP. ASK.
-```
-
-**3. Zero-Placeholder Policy**
-
-```
-NO "// TODO: Implement logic here"
-NO "// rest of the code is similar"
-Complete implementation or nothing.
-```
-
-**4. Self-Contained Output**
-
-```
-Generated code must be compilable without needing to add
-external utilities not mentioned in the response.
-```
-
-**5. Language Adaptation**
-
-```
-Always match the user's language. If they write in Czech, respond in Czech.
-If they write in English, respond in English.
-```
-
----
 
 ## License
 
-MIT License — Use freely, attribution appreciated.
+This project is licensed under the MIT License.
 
 ---
 
