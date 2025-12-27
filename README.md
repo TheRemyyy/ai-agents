@@ -22,7 +22,7 @@ Elite AI Agents is a collection of battle-tested system prompts that transform A
 ### Key Features
 
 - **🎯 Zero-Placeholder Policy** — No `// TODO` comments. Complete, production-ready implementations only.
-- **🛡️ Anti-Hallucination Protocol** — Strict verification before action. When uncertain, agents ask instead of guessing.
+- **🛡️ Anti-Hallucination** — Strict verification before action. When uncertain, agents ask instead of guessing.
 - **🧠 Domain Expertise** — Deep specialization in software, security, DevOps, design, and data science.
 - **🌍 Language Adaptation** — Automatically responds in your language (English, Czech, etc.).
 - **⚡ High Thinking Mode** — Plans before executing. Breaks down complex tasks into atomic steps.
